@@ -13,4 +13,4 @@ Final Project for Creative Web Design Training TESDA 2024.
 - To-do List Frontend
 
 - ##
-- [![Link](https://sam-portfolio-725.netlify.app/)]
+- [Link](https://sam-portfolio-725.netlify.app/)
