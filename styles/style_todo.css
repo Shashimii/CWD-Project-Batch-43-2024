@@ -14,3 +14,45 @@ body {
     width: 100% !important;
     max-width: 20% !important;
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem; 
+    height: 20rem; 
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+
+/*== task on mobile ==*/
+
+.task-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-mobile-content {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1440px) and (max-width: 1550px) {
+    .datepicker-modal {
+        width: 100% !important;
+        margin-inline: 6rem !important;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1439px) {
+    .datepicker-modal {
+        width: 100% !important;
+        margin-inline: 0rem !important;
+    }
+}
